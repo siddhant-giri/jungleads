@@ -1,0 +1,118 @@
+@import '../../../root-style.scss';
+
+.logo-register{
+    background-color: #0080ff;
+    height: 60px;
+    width: 100%;
+    padding: 5px;
+}
+.sign-up{
+    background: lightgray;
+    height: 100vh;
+
+    
+
+    .left{
+        background: $white;
+        padding: 0px 50px;
+    }
+    
+    .right{
+        background: $white;
+        span.title{
+            font-size: 36px;
+            text-transform: uppercase;
+            color: $white;
+        }
+    }
+.arrow-icon{
+    color: black;
+    margin-left:120px;
+}
+
+
+
+    .warning{
+        color: $red;
+        padding-left: 5px;
+    }
+    .input{
+        width: 100%;
+        height: 50px;
+        border-radius: 2px;
+        padding: 8px;
+        border: solid 2px $lightgray;
+        background-color: $white;
+        color: $gray;
+    }
+    .inp-icn{
+        border-right: none;
+    }
+    .country-code{
+        width: 100%;
+    }
+    .mobile-number{
+        width: 100%;
+    }
+    .col-4 label{
+        white-space: nowrap;
+    }
+    .input-grp{
+        margin-bottom: 20px;
+    }
+    .register{
+        border-radius: 2px;
+        background: $darkblue;
+        color: $white;
+        width: 100%;
+        height: 48px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: 0.32px;
+        text-transform: uppercase;
+        border: none;
+    }
+    .form-border{
+        margin: 0px 50px 20px 50px;
+        padding: 0px 250px 0px 250px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: $formShadow;
+    }
+
+    .terms-and-privacy{
+        font-size: 16px;
+        color: #41b3c4;
+
+    }
+    .footer{
+        padding-top: 12px;
+        font-size: 15px;
+        color: #41b3c4;
+
+    }
+    .sub-title{
+        font-size: $font24;
+        color: $black;
+        padding: 15px 0px;
+    }
+    .content{
+        font-size: $font18;
+        color: $lightblack;
+        padding: 15px 0px;
+    }
+    .header-logo{
+        padding: 50px 0px;
+    }
+    .thumbnail{
+        padding: 40px 0px;
+    }
+
+    .logo-images{
+        margin-top:25%;
+    }
+}

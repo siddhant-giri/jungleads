@@ -1,0 +1,56 @@
+@import '../../root-style.scss';
+
+.sub-label{
+  color: $dusk-two;
+  font-size: 12px;
+  float: left;
+  width: 250px;
+}
+.main-label{
+  font-weight: bold;
+}
+.reusable-cards{
+  border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 90px;
+}
+.fa{
+  color:$skyblue;
+}
+.people-icon{
+  color:$skyblue;
+  font-size: 12px;
+  margin-left: 30px;
+}
+.ready-status-1{
+  color: #00d48c;
+  font-size: 12px;
+}
+.ready-status-2{
+  color: #fcaf45;
+  font-size: 12px;
+}
+.checkbox{
+  // margin-left: 25px !important;
+  
+  input[type='checkbox'] {
+      width: 30px;
+      height: 30px;
+      margin: 7px;
+      border: solid 1px #a3a6b4;
+  }
+  .custom-control-input {
+      width: 20px;
+      height: 20px;
+  }
+  .custom-control-label {
+      font-size: 14px;
+      padding-top: 3px;
+      padding-left: 7px;
+  }
+  label.custom-control-label.account-label::before{
+    left:250px;
+  }
+  label.custom-control-label.account-label::after{
+    left:250px;
+  }
+}

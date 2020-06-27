@@ -1,0 +1,153 @@
+@import '../../../root-style.scss';
+
+.otp {
+  width: 100%;
+  background: lightgray;
+  height: 100vh;
+  .left {
+    background: $white;
+    padding: 0px 50px;
+  }
+  .right {
+    background: $darkblue;
+    span.title {
+      font-size: 36px;
+      text-transform: uppercase;
+      color: $white;
+    }
+  }
+  .error{
+    color: $red;
+    font-size: 13px;
+    text-align: left;
+    padding: 20px 0px 0px 10px;
+}
+  .sub-title {
+    font-size: $font24;
+    color: $black;
+    padding: 15px 0px;
+  }
+  .content {
+    font-size: $font18;
+    color: $lightblack;
+    padding: 15px 0px;
+  }
+  .header-logo {
+    padding: 30px 0px;
+  }
+  .form {
+    padding-top: 2%;
+  }
+}
+.otp-heading {
+  padding-top: 12%;
+  padding-left: 30px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #616161;
+}
+
+.otp-box {
+  width: 440px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(255, 255, 255, 0.16);
+  background-color: #ffffff;
+  p{
+    color: $darkgray;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 10px;
+  }
+}
+
+.otp-number {
+  height: 50px;
+  width: 50px;
+  margin-left: 6px;
+  margin-right: 7px;
+  padding: 5px;
+  border-radius: 2px;
+  border: solid 2px #cccccc;
+  background-color: #ffffff;
+}
+
+.otp-button {
+  width: 95%;
+  border: none;
+  height: 48px;
+  margin-top: 20px;
+  border-radius: 2px;
+  background-color: $darkblue;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0.75;
+  letter-spacing: 0.32px;
+  color: #ffffff;
+}
+
+.change-detail-link {
+  font-family: Roboto;
+  font-size: 13px;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #41b3c4;
+  padding-left: 45px;
+  text-decoration: underline;
+}
+.resend-otp-link {
+  font-family: Roboto;
+  font-size: 13px;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #41b3c4;
+  padding-left: 167px;
+  text-decoration: underline;
+}
+
+.page-heading {
+  padding-top: 12%;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.otp-section {
+  text-align: center;
+  .col-3 input{
+    font-size: 25px;
+    text-align: center;
+    color: $darkgray;
+  }
+  .logo-images{
+    margin-top:25%;
+}
+}
+// .otp-section .col-2 {
+//   margin-left: 0px;
+//   margin-right: 0px;
+//   padding: 5px;
+// }
+// .otp-section .col-2 input {
+//   height: 2rem;
+//   text-align: center;
+//   background: none;
+//   padding: 0;
+//   font-size: 26px;
+//   line-height: 28px;
+//   color: black;
+//   border-bottom: 1px solid black !important;
+// }

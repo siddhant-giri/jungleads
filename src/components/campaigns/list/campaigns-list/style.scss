@@ -1,0 +1,131 @@
+@import '../../../../root-style.scss';
+
+.campaigns-list{
+    .list-tabs{
+        margin-top: 5%;
+        padding-left: 5%;
+        max-width: 100%;
+        .tab-content{
+            background: $white;
+            padding: 20px 20px 5px 20px;
+        }
+        div.sub-tab.tab-pane.active{
+            // background-color: transparent !important;
+            border: none !important;
+        }
+        .nav-tabs{
+            background-color: $pale-gray-two;
+            .nav-link{
+                text-decoration: none;
+                color: $warm-gray;
+                font-size: 14px;
+            }
+            .nav-link.active{
+                border-color: transparent transparent $greeny-blue !important;
+                color: $greeny-blue;
+                font-size: 14px;
+                font-weight: 500;
+                border: 2px solid;
+            }
+        }
+        div.sub-tab{
+            .button{
+                height: 30px;
+                font-size: 12px;
+                border-radius: 10px;
+                padding: 0 10px;
+                background: $greeny-blue;
+                color: $white;
+                font-weight: 500;
+                cursor: pointer;
+            }
+            .disable{
+                cursor: not-allowed;
+                height: 30px;
+                font-size: 12px;
+                border-radius: 10px;
+                border: none;
+                background: $pale-gray-three;
+                padding: 0px 12px;
+                color: $gray;
+                font-weight: 500;
+            }
+            .enable{
+                padding: 0 10px;
+                height: 30px;
+                font-size: 12px;
+                border-radius: 10px;
+                background: rgba(65, 179, 196, 0.04);
+                border-color: rgba(65, 179, 196, 0.6);
+                font-weight: 500;
+                color: $gray;
+            }
+            .view-setup{
+                color: $warm-gray;
+                font-size: 12px;
+                label{
+                    margin-right: 10px;
+                }
+                .switch-off{
+                    font-size: 10px;
+                    color: $white-two;
+                }
+                .switch-on{
+                    font-size: 10px;
+                    color: $white-two;
+                    text-align: center;
+                }
+            }
+            .dropdown-style{
+                background: $pale-gray-three;
+                color: $gray;
+                font-weight: 500;
+                border: none;
+                border-radius: 10px; 
+                .btn-1{
+                    background: $pale-gray-three;
+                    border: none;
+                    &:hover{
+                        color: $gray;
+                    }
+                } 
+                .btn-toggle-1{
+                    border: none;
+                }              
+            }
+        }
+    }
+
+    .campaign-list-header{
+        background: $pale-gray-five;
+        margin-bottom:20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        .search-dropdowns-body{
+            width: 99.99%;
+            margin-left: 0.01%;
+            .filter-by.dropdown__control{
+                background: $pale-gray-two;
+                border-width: 1px;
+            }
+            .search-here{
+                width: inherit;
+                padding: 8px 5px;
+                border-radius: 10px 0 0 10px;
+                .ant-input-affix-wrapper{
+                    border: 1px solid $pinkish-gray;
+                }
+                .ant-input-group-addon{
+                    border-radius: 0 10px 10px 0;
+                }
+            }
+            .select-after {
+                width: 140px;
+                font-size: 10px;
+            }
+            .search-icn{
+                font-size: 16px;
+            }
+        }
+    }
+}

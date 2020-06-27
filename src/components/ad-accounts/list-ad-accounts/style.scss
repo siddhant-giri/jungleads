@@ -1,0 +1,101 @@
+@import '../../../root-style.scss';
+.ad-list {
+  background: $bg-gray;
+  height: 100vh;
+  .button {
+    width: 364px;
+    height: 48px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    border: solid 2px $white;
+    background-color: $white;
+    font-family: $roboto;
+    font-size: $font16;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 0.32px;
+  }
+  .submit-btn{
+    background: $skyblue;
+    color: $white;
+  }
+  .list-of-accounts {
+    width: 770px;
+    background: $white;
+    padding: 10px 40px;
+    margin-top: 10%;
+  }
+
+  .header {
+    background-color: #ffffff;
+    height: 70px;
+  }
+  .account-details-heading {
+    background-color: #f5f6fa;
+  }
+  input[type='checkbox'] .account-selection-checkbox {
+    width: 20px;
+    height: 20px;
+    margin: 7px;
+    border: solid 1px #a3a6b4;
+  }
+  .col-3 {
+    padding: 8px;
+  }
+  .custom-control-label {
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 7px;
+    color: #a3a6b4;
+  }
+  .header-logo {
+    margin-top: 1%;
+    margin-left: 40%;
+    width: 200px;
+  }
+  .custom-control-input {
+    width: 20px;
+    height: 20px;
+  }
+  .account-label {
+    color: #4d4f5c;
+    white-space: nowrap;
+  }
+  .account-header {
+    color: #4d4f5c;
+  }
+  .logo-images {
+    margin-top: 1%;
+  }
+
+  .select-account-heading {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: -10px;
+    font-size: 16px;
+    text-align: left;
+    color: #43425d;
+  }
+  .custom-checkbox {
+    margin: 8px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .account-status {
+    .status-color {
+      background-color: #5fc8da;
+      font-size: 14px;
+      line-height: 1.43;
+      opacity: 0.4;
+      border-radius: 14px;
+      color: #000000 !important;
+      padding-top: 5px;
+      padding-left: 29px;
+      padding-right: 28px;
+      padding-bottom: 5px;
+    }
+  }
+}

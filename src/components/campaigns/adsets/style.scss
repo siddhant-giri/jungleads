@@ -1,0 +1,273 @@
+@import '../../../root-style.scss';
+.adsets{
+    background: $white;
+    color: $gray;
+    .container-fluid.row.adset-block{
+        margin-right: 0px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .error{
+        font-size: 12px;
+        color: $red;
+        padding-left: 8px;
+    }
+    div.col-9.content-block{
+        margin-top: 11%;
+        margin-left: 25%;
+    }
+    .dropdown-style{
+        width: 100%;
+    }
+    .detailed-target{
+        width: 520px;
+    }
+    .select-dropdown{
+        color: $warm-gray;
+    }
+    .header{
+        color: $dusk-two;
+    }
+    .sub-title{
+        font-size: 12px;
+    }
+    .divider{
+        border: 1px thin $gray;
+    }
+    a{
+        color: $greeny-blue;
+        text-decoration: underline;
+    }
+    p, span{
+        font-size: 14px;
+        color: $darkgray;
+        .need-help-lnk{
+            float: right;
+            color: $greeny-blue;
+            text-decoration: underline;
+        }
+    }
+    .info-icon{
+        padding: 10px;
+    }
+    span span{
+        color: $warm-gray;
+        font-size: 12px;
+    }
+    .ad-category{
+        background: $pale-gray-two;
+        margin: 10px 20px;
+        padding: 10px 0px;
+        img.info-icon{
+            padding: 5px;
+            width: 25px;
+        }
+        .ad-type{
+            cursor: pointer;
+            border: 2px solid $pinkish-gray;
+            border-radius: 10px;
+            margin: 0;
+            .icon-block{
+                padding: 0;
+                text-align: center;
+                margin: auto;
+            }
+            .content-block{
+                padding: 15px;
+                line-height: 15px;
+            }
+            .title{
+                font-size: 13px;
+                margin-bottom: 15px;
+            }
+            .sub-title{
+                font-size: 10px;
+            }
+        }
+    }
+    .btn-1{
+        background: $white;
+        color: $warm-gray;
+        width: 335px;
+        border: 2px solid $pinkish-gray;
+        border-right: 0px;
+        border-radius: 10px;
+        text-align: left;
+        font-size: 14px;
+    }
+    .btn-toggle-1{
+        background: $white;
+        color: $warm-gray;
+        border: 2px solid $pinkish-gray;
+        border-radius: 10px;
+        border-left: none;
+        font-size: 14px;
+        background-color: transparent !important;
+        border-color: $pinkish-gray !important;
+        color: $pinkish-gray !important;
+    }
+    .dropdown-menu.show{
+        width: 100%;
+        margin-top: 10%;
+        border-radius: 10px;
+        a{
+            text-decoration: none;
+        }
+    }
+    .checkbox{
+        margin-left: 25px;
+        span{
+            color: $warm-gray;
+            font-size: 12px;
+        }
+        label{
+            color: $brownish-gray;
+        }
+        input[type='checkbox'] {
+            width: 30px;
+            height: 30px;
+            margin: 7px;
+            border: solid 1px #a3a6b4;
+        }
+    }
+    .objective{
+        background: $pale-gray-two;
+        .headers{
+            font-size: 14px;
+            color: $brownish-gray;
+            border-bottom: 1px solid $pinkish-gray;
+            margin: 0px 10px;
+            padding: 15px 0px;
+        }
+        div .row.blocks{
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid $pinkish-gray;
+            background: $white;
+            width: 90%;
+            margin: 10px auto;
+        }
+        .title{
+            text-align: left;
+            font-size: 14px;
+            color: $brownish-gray;
+        }
+    }
+    .adsets-type{
+        .type{
+            width: 190px;
+            height: 140px;
+            border: 1px solid $lightgray;
+            padding-top: 15%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .adsets-active{
+            background-color: rgba(65, 179, 196, 0.05);
+            border: 1px solid $skyblue;
+        }
+    }
+    .audience-msg{
+        color: $light-green;
+        font-size: 14px;
+    }
+    .placement-types{
+        width: 190px;
+        height: 70px;
+        border: 1px solid $lightgray;
+        border-radius: 10px;
+        cursor: pointer;
+        p{
+            padding: 15px 0px;
+        }
+    }
+    .placement-active{
+        background-color: rgba(65, 179, 196, 0.05);
+        border: 1px solid $skyblue;
+    }
+    .button {
+        width: 364px;
+        height: 40px;
+        margin: 20px 0px;
+        border-radius: 10px;
+        border: solid 2px $skyblue;
+        background-color: $white;
+        font-family: $roboto;
+        font-size: $font16;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: 0.32px;
+        color: $skyblue;
+        &:hover{
+            color: $white;
+            background-color: $skyblue;
+        }
+    }
+    .button.back{
+        color: $warm-gray;
+        border: solid 2px $warm-gray;
+        width: 200px;
+        &:hover{
+            color: $white;
+            background-color: $warm-gray;
+        }
+    }
+    .button.continue{
+        color: $white;
+        background-color: $skyblue;
+        width: 200px;
+        float: right;
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+    .right-panel{
+        margin-top: 20px !important;
+    }
+    .selector{
+        background-color: rgba(65, 179, 196, 0.05);
+        border: 1px solid $skyblue;
+    }
+    .active{
+        background-color: rgba(65, 179, 196, 0.05) !important;
+        border: 2px solid #41b3c4 !important;
+    }
+    .platforms{
+        width: 70%;
+        font-size: 13px;
+        div{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+    .budget-txt{
+        color: $brownish-gray;
+        font-size: 14px;
+        span{
+            color: $warm-gray;
+            font-size: 12px;
+        }
+    }
+    .inp{
+        margin-top: 12px;
+    }
+    .txt-2{
+        color: $warm-gray;
+        font-size: 12px;
+    }
+    .graph-txt{
+        color: $warm-gray;
+        font-size: 12px;
+        // padding-right: 10%;
+    }
+    .donut{
+        border: solid 1px #cccccc;
+        background: #f5f5f5;
+        font-size: 12px;
+        color: $warm-gray;
+        padding-bottom: 10px;
+    }
+}

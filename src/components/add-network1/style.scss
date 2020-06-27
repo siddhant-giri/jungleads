@@ -1,0 +1,98 @@
+@import '../../root-style.scss';
+.ad-network {
+    background: $bg-gray;
+    height: 100vh;
+    .login-body{
+        width: 570px;
+        background: $white;
+        padding: 10px 55px;
+      
+    }
+  .button {
+    width: 364px;
+    height: 48px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    border: solid 2px $white;
+    background-color: $white;
+    font-family: $roboto;
+    font-size: $font16;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 0.32px;
+  }
+  .title {
+    color: $black2;
+    font-size: $font18;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+  }
+  .sub-title{
+    color: $black2;
+    font-size: $font14;
+    color: $darkgray;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+  }
+  .google-btn {
+    border-color: $google-red;
+    color: $white;
+    background: $google-red;
+  }
+  .google-btn-disable{
+    border-color: $google-red;
+    color: $google-red;
+    background: $white;
+  }
+  .fb-btn {
+    border-color: $fb-blue;
+    background: $white;
+    color: $fb-blue;
+  }
+  .fb-btn-disable{
+    border-color: $fb-blue;
+    color: $fb-blue;
+    background: $white;
+  }
+  .submit-btn{
+    background: $skyblue;
+    color: $white;
+  }
+  .submit-disable{
+    background: $skyblue;
+    color: $white;
+  }
+  .need-help{
+      font-size: 13px;
+      color: $skyblue;
+      text-decoration: underline;
+  }
+  .heading-bold{
+    font-size:26px;
+    position: relative;
+    padding-top: 10%;
+    font-weight: 500;
+  }
+.heading-content{
+    margin-bottom: 40px;
+    color: $lightblack;
+}
+.header{
+  background-color: #ffffff;
+  height:70px;
+}
+.header-logo{
+  margin-top: 1%;;
+  margin-left: 40%;
+  width: 200px;
+}
+.logo-images{
+  margin-top: 5%;
+}
+}

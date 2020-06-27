@@ -1,0 +1,1 @@
+export const adAccounts = 'adaccounts?fields=name,account_id,account_status'

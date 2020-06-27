@@ -1,0 +1,261 @@
+@import '../../../root-style.scss';
+.campaign{
+    #campaignName{
+        border-radius: 0px;
+        border:0px;
+        border-bottom: 1px solid #afafafaf;
+        width:300px;
+        margin-top: 20px;
+        font-size: 30px;
+        margin-left:40px
+    }
+    #campaignName::-webkit-input-placeholder {
+        /* WebKit, Blink, Edge */
+        color: #afafaf;
+        font-size: 30px;
+    }
+    .inp-checkbox{
+        color: $darkgray;
+        height: 15px;
+        width:30px;
+        
+       
+    }
+    .right-panel{
+        margin-top: 20px !important;
+    }
+    .container-fluid.row.camp-block{
+        margin-right: 0px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    div.col-9.content-block{
+        margin-top: 11%;
+        margin-left: 25%;
+    }
+    background: $white;
+    color: $gray;
+    .header{
+        color: $dusk-two;
+    }
+    .sub-title{
+        font-size: 12px;
+    }
+    .divider{
+        border: 1px thin $gray;
+    }
+    a{
+        color: $darkblue;
+        text-decoration: underline;
+    }
+    p, span{
+        font-size: 14px;
+        color: $darkgray;
+        .need-help-lnk{
+            float: right;
+            color: $darkblue;
+            text-decoration: underline;
+        }
+    }
+    .info-icon{
+        margin-left: 15px;
+    }
+    span span{
+        color: $warm-gray;
+        font-size: 12px;
+    }
+    .ad-category{
+        background: white;
+        margin: 10px 20px;
+        padding: 10px 0px;
+        img.info-icon{
+            padding: 5px;
+            width: 25px;
+        }
+        .ad-type{
+            cursor: pointer;
+            border: 2px solid $pinkish-gray;
+            // border-radius: 10px;
+            margin: 0;
+            .icon-block{
+                padding: 0;
+                text-align: center;
+                margin: auto;
+            }
+            .content-block{
+                padding: 15px;
+                line-height: 15px;
+            }
+            .title{
+                font-size: 13px;
+                margin-bottom: 15px;
+            }
+            .sub-title{
+                font-size: 10px;
+            }
+        }
+    }
+    .btn-1{
+        background: $white;
+        color: $warm-gray;
+        width: 335px;
+        border: 2px solid $pinkish-gray;
+        border-right: 0px;
+        // border-radius: 10px;
+        text-align: left;
+        font-size: 14px;
+    }
+    .btn-toggle-1{
+        background: $white;
+        color: $warm-gray;
+        border: 2px solid $pinkish-gray;
+        // border-radius: 10px;
+        border-left: none;
+        font-size: 14px;
+        background-color: transparent !important;
+        border-color: $pinkish-gray !important;
+        color: $pinkish-gray !important;
+    }
+    .dropdown-menu.show{
+        width: 100%;
+        margin-top: 10%;
+        border-radius: 10px;
+        a{
+            text-decoration: none;
+        }
+    }
+    .checkbox{
+        margin-left: 25px;
+        span{
+            color: $warm-gray;
+            font-size: 12px;
+        }
+        label{
+            color: $brownish-gray;
+        }
+        input[type='checkbox'] {
+            width: 30px;
+            height: 30px;
+            margin: 7px;
+            border: solid 1px #a3a6b4;
+        }
+    }
+    .objective{
+        background: white;
+        .headers{
+            font-size: 14px;
+            color: $brownish-gray;
+            border-bottom: 1px solid $pinkish-gray;
+            margin: 0px 10px;
+            padding: 15px 0px;
+        }
+        div .row.blocks{
+            cursor: pointer;
+            padding: 10px;
+          
+            border: 2px solid $pinkish-gray;
+            background: $white;
+            width: 90%;
+            margin: 10px auto;
+        }
+        .title{
+            text-align: left;
+            font-size: 14px;
+            color: $brownish-gray;
+        }
+    }
+    .campaign-type{
+        .create-campaign{
+            width: 210px;
+            height: 140px;
+            border: 1px solid $lightgray;
+            padding-top: 15%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .existing-campaign{
+            width: 210px;
+            height: 140px;
+            border: 1px solid $lightgray;
+            padding-top: 15%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .campaign-active{
+            // background-color: rgba(65, 179, 196, 0.05);
+            border: 1px solid $darkblue;
+        }
+    }
+    .continue-btn{
+        border-radius: 2px;
+            background: $darkblue;
+            color: 'white';
+            width: 100%;
+            height: 40px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.25;
+            letter-spacing: 0.32px;
+            border: none;
+           margin-left: 580px;
+            text-transform: uppercase;
+           
+           
+    }
+    .save-btn{
+        border-radius: 2px;
+            background:transparent;
+            color: $darkblue;
+            width: 100%;
+            height: 40px;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.25;
+            letter-spacing: 0.32px;
+            border: none;
+            text-transform: uppercase;
+         
+        margin-left:570px;
+    }
+   
+    .button {
+        width: 364px;
+        height: 48px;
+        margin: 5px 0px;
+        
+        border: solid 2px $white;
+        background-color: $white;
+        font-family: $roboto;
+        font-size: $font16;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: 0.32px;
+        background: $skyblue;
+        color: $white;
+    }
+    .budget{
+        margin-left: 400px;
+        margin-top: -5% ;
+        
+    }
+    #budget{
+        border-radius: 0px;
+    }
+    .selector{
+        background-color: rgba(65, 179, 196, 0.05);
+        border: 1px solid $skyblue;
+    }
+    .active{
+        background-color: rgba(65, 179, 196, 0.05) !important;
+        border: 2px solid #41b3c4 !important;
+    }
+}
+

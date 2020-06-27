@@ -1,0 +1,114 @@
+{
+    "data": [
+        {
+            "audience_type": [
+                {
+                    "name": "Website",
+                    "icon": "biz-icon-website",
+                    "parameter": [
+                        "Page View",
+                        "View Content",
+                        "Add to Cart",
+                        "Initiate Checkout",
+                        "Purchase",
+                        "Add Payment Info",
+                        " Search"
+                    ]
+                },
+                {
+                    "name": "App Activity",
+                    "icon": "biz-icon-app-activity",
+                    "parameter": [
+                        "Anyone who opened the app",
+                        "Most Active Users",
+                        " Users by purchase amount",
+                        "Users By Segment"
+                    ]
+                },
+                {
+                    "name": "Offline Activity",
+                    "icon": "biz-icon-offline-activity",
+                    "parameter": [
+                        "People Who interacted offline",
+                        "Add to payment info",
+                        "Add to cart",
+                        "Add to wishlist",
+                        "Complete Registration",
+                        "Contact",
+                        "Customize Registration",
+                        "Donate",
+                        "Find Location",
+                        "Initiate Checkout",
+                        "Lead",
+                        "Purchase",
+                        "Schedule ",
+                        "Search",
+                        "Start Trial",
+                        "Submit Application",
+                        "Subscribe",
+                        "View Content"
+                    ]
+                },
+                {
+                    "name": "Video Source",
+                    "icon": "biz-icon-video",
+                    "parameter": [
+                        "People Who viewed at least 3 secs of video",
+                        "People who views at least 10 sec of video",
+                        "People who either completed or viewed at least 15 secs of your video",
+                        "People who have watched atleast 25% of your video",
+                        "People who have watched atleast 50% of your video",
+                        "People who have watched atleast 70% of your video",
+                        " People who have watched atleast 95% of your video"
+                    ]
+                },
+                {
+                    "name": "Lead",
+                    "icon": "biz-icon-lead",
+                    "parameter": [
+                        "Anyone who opened this form",
+                        "People who opened but didn’t submit the form",
+                        "People who opened and submitted form"
+                    ]
+                },
+                {
+                    "name": "Event",
+                    "icon": "biz-icon-events",
+                    "parameter": [
+                        "People who responded with Going or Interested",
+                        "People who have responded with going",
+                        "People who have responded with Interested",
+                        "People who have visited the event page",
+                        "People who have engaged ( like share or comment)",
+                        "People who have engaged with tickets",
+                        "People who have purchased tickets",
+                        "People who intended to purchase the tickets ( abandoned flow )"
+                    ]
+                },
+                {
+                    "name": "Instagram Business Profile",
+                    "icon": "biz-icon-instagram",
+                    "parameter": [
+                        "Everyone who engaged with your business ",
+                        "Anyone who visited your business profile",
+                        "People who engaged with any post or ad",
+                        "People who sent a message to your business profile",
+                        "People who saved any post or ad"
+                    ]
+                },
+                {
+                    "name": "Facebook Pages",
+                    "icon": "biz-icon-facebook",
+                    "parameter": [
+                        "Everyone who engaged with your page",
+                        "Anyone who visited your page",
+                        "People who engaged with any post or ad",
+                        "People who clicked on your call to action button",
+                        "People who sent a message to your page",
+                        "People who saved your page or any post"
+                    ]
+                }
+            ]
+        }
+    ]
+}

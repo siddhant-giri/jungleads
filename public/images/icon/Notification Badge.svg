@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+    <defs>
+        <style>
+            .cls-1{fill:#ffc06a;stroke:#fff;stroke-width:2px}.cls-2{stroke:none}.cls-3{fill:none}
+        </style>
+    </defs>
+    <g id="Notification_Badge" class="cls-1" data-name="Notification Badge" transform="translate(2 2)">
+        <circle cx="4" cy="4" r="4" class="cls-2"/>
+        <circle cx="4" cy="4" r="5" class="cls-3"/>
+    </g>
+</svg>

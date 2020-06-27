@@ -1,0 +1,47 @@
+@import '../../../root-style.scss';
+.survey-page {
+    background: $bg-gray;
+    height: 100%;
+    .survey-body{
+        width: 570px;
+        background: $white;
+        padding: 10px 55px;
+      
+    }
+  }
+    .para{
+      text-align: center;
+      margin-top:100px;
+    }
+    
+    body{
+      background-color: #e3dbff;
+    }
+    
+    .para{
+      margin-bottom: 50px;
+    }
+    
+    .top{
+      background-color: black;
+      color: white;
+      height: 50px;
+      font-size: xx-large;
+    }
+    
+    
+    .survey{
+      text-align: center;
+      box-shadow: 0px 8px 15px lightgrey;
+    }
+    
+    .thanks{
+      height: 200px;
+      width: 100%;
+      color: #0ABDE3;
+      font-size: xx-large;
+      background-color:white;
+      font-weight: 600;
+    
+    }
+    

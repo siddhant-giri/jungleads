@@ -1,0 +1,8 @@
+:focus {
+    outline: none !important;
+}
+.btn-primary:active{
+    color: #919191 !important;
+    background-color: transparent !important;
+    border-color: #cccccc !important;
+}

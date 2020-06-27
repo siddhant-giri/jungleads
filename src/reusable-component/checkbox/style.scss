@@ -1,0 +1,30 @@
+.checkbox{
+    margin-left: 25px !important;
+    span{
+        color: $warm-gray;
+        font-size: 12px;
+    }
+    label{
+        color: $brownish-gray;
+    }
+    input[type='checkbox'] {
+        width: 30px;
+        height: 30px;
+        margin: 7px;
+        border: solid 1px #a3a6b4;
+    }
+    .custom-control-input {
+        width: 20px;
+        height: 20px;
+    }
+    .custom-control-label {
+        font-size: 14px;
+        padding-top: 3px;
+        padding-left: 7px;
+        color: #a3a6b4;
+    }
+    .account-label {
+        color: #4d4f5c;
+        white-space: nowrap;
+    }
+}

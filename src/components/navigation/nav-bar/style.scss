@@ -1,0 +1,82 @@
+@import '../../../root-style.scss';
+
+.nav-bar {
+    .header{
+        background-color: #ffffff;
+        height:70px;
+      }
+      .header-logo{
+        margin-top: 1%;;
+        margin-left: 40%;
+        width: 200px;
+      }
+}
+
+.fa{
+  color:$darkblue;
+}
+
+header.header {
+  background: #fff;
+  border-bottom: 1px solid #e8e9ed;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  clear: both;
+  padding: 0 30px;
+  height: 62px;
+  position: fixed;
+  left: 280px;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+
+  .top-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 30px;
+    z-index: 999;
+    // border-bottom: 1px solid #dcdcdc;
+    width: 400px;
+    float: left;
+  }
+
+  .top-right {
+    padding: 0 30px;
+  }
+
+  .navbar-brand {
+    width: 250px;
+    display: inline-block;
+  }
+  .menutoggle {
+    padding-top: 7px;
+  }
+  .navbar-header {
+    width: 100%;
+    background-color: #fff;
+    padding: 0 1.25em 0 0;
+  }
+  .navbar-header > a {
+    display: inline-block;
+  }
+  .right-panel .navbar-brand {
+    line-height: 42px;
+  }
+  .navbar-brand img {
+    max-width: 145px;
+  }
+  .navbar-brand.hidden {
+    display: none;
+  }
+
+}
+
+header.fixed-top {
+  background: #fff;
+  padding: 20px;
+}
+
+

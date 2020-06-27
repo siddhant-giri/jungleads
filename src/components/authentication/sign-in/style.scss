@@ -1,0 +1,125 @@
+@import '../../../root-style.scss';
+.sign-in{
+    background: lightgray;
+    height:100vh;
+    .left{
+        background: $white;
+        padding: 0px 50px;
+    }
+    .right{
+        background: $darkblue;
+        span.title{
+            font-size: 36px;
+            text-transform: uppercase;
+            color: $white;
+        }
+        
+    }
+    
+    .input{
+        width: 100%;
+        height: 50px;
+        border-radius: 2px;
+        padding: 8px;
+        border: solid 2px $lightgray;
+        background-color: $white;
+        color: $gray;
+    }
+    
+    .inp-icn{
+        border-right: none;
+        
+    }
+    .country-code{
+        width: 100%;
+    }
+    .mobile-number{
+        width: 100%;
+    }
+    .col-4 label{
+        white-space: nowrap;
+    }
+    .input-grp{
+        margin-bottom: 20px;
+    }
+    .login{
+        border-radius: 2px;
+        background: $darkblue;
+        color: $white;
+        width: 100%;
+        height: 48px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: 0.32px;
+        border: none;
+        text-transform: uppercase;
+    }
+    .form-border{
+        margin: 0px 50px 20px 50px;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: $formShadow;
+        margin-top: 20px;
+    }
+    
+    .terms-and-privacy{
+        font-size: $font13;
+        text-decoration:underline;
+        color: #41b3c4;
+
+    }
+    .form-block{
+        margin: 15% 8%;
+    }
+    .inp-checkbox{
+        color: $darkgray;
+        height: 20px;
+       
+    }
+.welcometext{
+    color:white;
+    
+}
+    .logtext{
+        margin-left:-30px;
+        margin-top: 8px;
+    }
+    .forget-password{
+        font-size: $font13;
+        font-family: Roboto;
+        text-align: left;
+        color: #41b3c4;
+        text-decoration:underline;
+
+    }
+    .warning{
+        color: $red;
+        padding-left: 5px;
+    }
+    .sub-title{
+        font-size: $font24;
+        color: $black;
+        padding: 15px 0px;
+    }
+    .content{
+        font-size: $font18;
+        color: $lightblack;
+        padding: 15px 0px;
+    }
+    .header-logo{
+        padding: 30px 0px;
+    }
+    .error{
+        border-color: $red;
+        color: $red;
+        padding: 10px 20px;
+    }
+    .logo-images{
+        margin-top:25%;
+    }
+}

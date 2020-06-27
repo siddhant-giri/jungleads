@@ -1,0 +1,17 @@
+@import '../../root-style.scss';
+.input{
+    width: 100%;
+    .label{
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    display: inline-block;
+    .input-field{
+        width: 364px;
+        padding: 8px;
+        font-size: 14px;
+        border-radius: 10px;
+        border: solid 2px $pinkish-gray;
+        background: $white;
+    }
+}

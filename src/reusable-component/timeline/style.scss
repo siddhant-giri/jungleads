@@ -1,0 +1,40 @@
+@import '../../root-style.scss';
+
+div.col-3.timeline{
+    background: $pale-gray;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    height: 100vh;
+    max-width: 20%;
+    .header{
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        padding: 10px;
+    }
+    .lists{
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        // padding: 10px;
+        background-color: transparent !important;
+        color: black;
+        text-decoration: none;
+        width: 100%;
+        border: none !important;
+        
+    }
+    .selected{
+        color: $greeny-blue;
+        background-color: rgba(255, 255, 255, 0.5) !important;
+    }
+}

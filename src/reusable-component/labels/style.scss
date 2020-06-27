@@ -1,0 +1,17 @@
+@import '../../root-style.scss';
+.reusable-label {
+  .label {
+  }
+  .info-icon {
+    padding: 10px;
+  }
+  .error{
+    color: $red;
+    font-size: 12px;
+    margin-left: 5px !important;
+  }
+  .info-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

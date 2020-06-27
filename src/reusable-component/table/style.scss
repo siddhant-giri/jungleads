@@ -1,0 +1,90 @@
+@import '../../root-style.scss';
+
+.reusable-table{
+    border: solid transparent;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    thead{
+        tr{
+            th{
+                border-top: none;
+                border-bottom: none;
+                background: $pale-gray-three;
+                color: $cool-gray;
+            }
+            th.first-col{
+                border-left: none;
+                .checkbox{
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+    tbody{
+        tr{
+            td{
+                border-top: none;
+                border-bottom: none;
+                .row-one.campaign-name{
+                    font-size: 14px;
+                }
+                .switch-off{
+                    font-size: 10px;
+                    color: $white-two;
+                }
+                .switch-on{
+                    font-size: 10px;
+                    color: $white-two;
+                    text-align: center;
+                }
+                .graph-icon{
+                    width: 14px;
+                }
+                .view-chart{
+                    font-size: 10px;
+                    color: $warm-gray;
+                }
+            }
+            .row-three{
+                span{
+                    font-size: 12px;
+                    color: $warm-gray;
+                    padding-right: 5px;
+                    text-decoration: underline;
+                    cursor: pointer;
+                    .biz-icon {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            td.row-one{
+                font-size: 12px;
+                font-family: 'Roboto';
+                color: $gunmetal;
+            }
+            .row-two{
+                font-size: 10px;
+                color: $greeny-blue;
+                margin-left: 15px;
+                padding-left: 5px;
+                // height: 16px;
+                padding-top: 4px;
+                background: rgba(65, 179, 196, 0.15);
+                span{
+                    color: $brownish-gray;
+                }
+            }
+
+            td.stripped{
+                background: $white-two;
+            }
+            td.first-col{
+                border-left: none;
+                .checkbox{
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+}

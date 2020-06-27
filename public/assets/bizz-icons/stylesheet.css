@@ -1,0 +1,553 @@
+.biz-icon {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.biz-1x {
+    zoom: 0.2;
+}
+
+.biz-2x {
+    zoom: 0.4;
+}
+
+.biz-3x {
+    zoom: 0.6;
+}
+
+.biz-4x {
+    zoom: 0.8;
+}
+
+.biz-5x {
+    zoom: 1;
+}
+
+.biz-icon {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.biz-icon-analytics {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -5px;
+}
+
+.biz-icon-analytics_2x {
+    width: 32px;
+    height: 32px;
+    background-position: -31px -5px;
+}
+
+.biz-icon-analytics_3x {
+    width: 48px;
+    height: 48px;
+    background-position: -73px -5px;
+}
+
+.biz-icon-app-activity {
+    width: 30px;
+    height: 30px;
+    background-position: -131px -5px;
+}
+
+.biz-icon-app-activity_2x {
+    width: 60px;
+    height: 60px;
+    background-position: -171px -5px;
+}
+
+.biz-icon-app-activity_3x {
+    width: 90px;
+    height: 90px;
+    background-position: -241px -5px;
+}
+
+.biz-icon-carousel {
+    width: 67px;
+    height: 50px;
+    background-position: -341px -5px;
+}
+
+.biz-icon-carousel_2x {
+    width: 134px;
+    height: 100px;
+    background-position: -418px -5px;
+}
+
+.biz-icon-carousel_3x {
+    width: 201px;
+    height: 150px;
+    background-position: -5px -115px;
+}
+
+.biz-icon-copy-item {
+    width: 10px;
+    height: 10px;
+    background-position: -562px -5px;
+}
+
+.biz-icon-copy-item_2x {
+    width: 20px;
+    height: 20px;
+    background-position: -582px -5px;
+}
+
+.biz-icon-credit-card {
+    width: 24px;
+    height: 17px;
+    background-position: -612px -5px;
+}
+
+.biz-icon-credit-card_2x {
+    width: 48px;
+    height: 33px;
+    background-position: -646px -5px;
+}
+
+.biz-icon-credit-card_3x {
+    width: 72px;
+    height: 49px;
+    background-position: -562px -48px;
+}
+
+.biz-icon-duplicate {
+    width: 29px;
+    height: 29px;
+    background-position: -5px -48px;
+}
+
+.biz-icon-duplicated {
+    width: 15px;
+    height: 15px;
+    background-position: -44px -48px;
+}
+
+.biz-icon-duplicated_2x {
+    width: 29px;
+    height: 29px;
+    background-position: -131px -48px;
+}
+
+.biz-icon-duplicated_3x {
+    width: 43px;
+    height: 43px;
+    background-position: -644px -48px;
+}
+
+.biz-icon-events {
+    width: 30px;
+    height: 30px;
+    background-position: -341px -101px;
+}
+
+.biz-icon-events_2x {
+    width: 60px;
+    height: 60px;
+    background-position: -216px -107px;
+}
+
+.biz-icon-events_3x {
+    width: 90px;
+    height: 90px;
+    background-position: -562px -107px;
+}
+
+.biz-icon-existing-adsets {
+    width: 40px;
+    height: 46px;
+    background-position: -216px -207px;
+}
+
+.biz-icon-existing-adsets_2x {
+    width: 80px;
+    height: 92px;
+    background-position: -266px -207px;
+}
+
+.biz-icon-existing-adsets_3x {
+    width: 120px;
+    height: 138px;
+    background-position: -356px -207px;
+}
+
+.biz-icon-eye-close-icon {
+    width: 21px;
+    height: 16px;
+    background-position: -381px -101px;
+}
+
+.biz-icon-eye-close-icon_2x {
+    width: 42px;
+    height: 31px;
+    background-position: -486px -207px;
+}
+
+.biz-icon-eye-close-icon_3x {
+    width: 62px;
+    height: 46px;
+    background-position: -538px -207px;
+}
+
+.biz-icon-eye-icon {
+    width: 21px;
+    height: 21px;
+    background-position: -662px -101px;
+}
+
+.biz-icon-eye-icon_2x {
+    width: 42px;
+    height: 42px;
+    background-position: -610px -207px;
+}
+
+.biz-icon-eye-icon_3x {
+    width: 63px;
+    height: 63px;
+    background-position: -610px -259px;
+}
+
+.biz-icon-facebook {
+    width: 16px;
+    height: 30px;
+    background-position: -286px -132px;
+}
+
+.biz-icon-facebook_2x {
+    width: 32px;
+    height: 60px;
+    background-position: -381px -132px;
+}
+
+.biz-icon-facebook_3x {
+    width: 48px;
+    height: 90px;
+    background-position: -5px -332px;
+}
+
+.biz-icon-folder {
+    width: 55px;
+    height: 53px;
+    background-position: -63px -332px;
+}
+
+.biz-icon-folder_2x {
+    width: 110px;
+    height: 106px;
+    background-position: -486px -263px;
+}
+
+.biz-icon-folder_3x {
+    width: 165px;
+    height: 158px;
+    background-position: -128px -379px;
+}
+
+.biz-icon-folder_existing {
+    width: 55px;
+    height: 54px;
+    background-position: -606px -332px;
+}
+
+.biz-icon-folder_existing_2x {
+    width: 110px;
+    height: 107px;
+    background-position: -303px -379px;
+}
+
+.biz-icon-folder_existing_3x {
+    width: 165px;
+    height: 160px;
+    background-position: -423px -379px;
+}
+
+.biz-icon-home {
+    width: 24px;
+    height: 24px;
+    background-position: -423px -132px;
+}
+
+.biz-icon-home_2x {
+    width: 48px;
+    height: 48px;
+    background-position: -63px -396px;
+}
+
+.biz-icon-home_3x {
+    width: 72px;
+    height: 72px;
+    background-position: -598px -396px;
+}
+
+.biz-icon-import-export-arrows {
+    width: 21px;
+    height: 16px;
+    background-position: -457px -132px;
+}
+
+.biz-icon-import-export-arrows_2x {
+    width: 41px;
+    height: 32px;
+    background-position: -128px -332px;
+}
+
+.biz-icon-import-export-arrows_3x {
+    width: 62px;
+    height: 48px;
+    background-position: -5px -478px;
+}
+
+.biz-icon-information {
+    width: 20px;
+    height: 20px;
+    background-position: -488px -132px;
+}
+
+.biz-icon-information_2x {
+    width: 40px;
+    height: 40px;
+    background-position: -77px -478px;
+}
+
+.biz-icon-information_3x {
+    width: 60px;
+    height: 60px;
+    background-position: -598px -478px;
+}
+
+.biz-icon-instagram {
+    width: 30px;
+    height: 30px;
+    background-position: -518px -132px;
+}
+
+.biz-icon-instagram_2x {
+    width: 60px;
+    height: 60px;
+    background-position: -5px -548px;
+}
+
+.biz-icon-instagram_3x {
+    width: 90px;
+    height: 90px;
+    background-position: -75px -548px;
+}
+
+.biz-icon-lead {
+    width: 30px;
+    height: 30px;
+    background-position: -662px -132px;
+}
+
+.biz-icon-lead_2x {
+    width: 60px;
+    height: 60px;
+    background-position: -175px -548px;
+}
+
+.biz-icon-lead_3x {
+    width: 90px;
+    height: 90px;
+    background-position: -245px -548px;
+}
+
+.biz-icon-new-adsets {
+    width: 40px;
+    height: 43px;
+    background-position: -345px -548px;
+}
+
+.biz-icon-new-adsets_2x {
+    width: 80px;
+    height: 85px;
+    background-position: -598px -548px;
+}
+
+.biz-icon-new-adsets_3x {
+    width: 120px;
+    height: 127px;
+    background-position: -395px -549px;
+}
+
+.biz-icon-offline-activity {
+    width: 30px;
+    height: 30px;
+    background-position: -662px -172px;
+}
+
+.biz-icon-offline-activity_2x {
+    width: 60px;
+    height: 60px;
+    background-position: -704px -5px;
+}
+
+.biz-icon-offline-activity_3x {
+    width: 90px;
+    height: 90px;
+    background-position: -680px -332px;
+}
+
+.biz-icon-pencil {
+    width: 12px;
+    height: 10px;
+    background-position: -44px -75px;
+}
+
+.biz-icon-pencil_2x {
+    width: 23px;
+    height: 20px;
+    background-position: -66px -75px;
+}
+
+.biz-icon-pencil_3x {
+    width: 34px;
+    height: 30px;
+    background-position: -170px -75px;
+}
+
+.biz-icon-portfolio {
+    width: 24px;
+    height: 22px;
+    background-position: -697px -75px;
+}
+
+.biz-icon-portfolio_2x {
+    width: 48px;
+    height: 43px;
+    background-position: -702px -107px;
+}
+
+.biz-icon-portfolio_3x {
+    width: 72px;
+    height: 64px;
+    background-position: -683px -212px;
+}
+
+.biz-icon-remove {
+    width: 20px;
+    height: 20px;
+    background-position: -99px -75px;
+}
+
+.biz-icon-remove_2x {
+    width: 40px;
+    height: 40px;
+    background-position: -702px -160px;
+}
+
+.biz-icon-remove_3x {
+    width: 60px;
+    height: 60px;
+    background-position: -179px -286px;
+}
+
+.biz-icon-rotate {
+    width: 16px;
+    height: 14px;
+    background-position: -214px -75px;
+}
+
+.biz-icon-rotate_2x {
+    width: 31px;
+    height: 27px;
+    background-position: -312px -160px;
+}
+
+.biz-icon-rotate_3x {
+    width: 46px;
+    height: 41px;
+    background-position: -680px -432px;
+}
+
+.biz-icon-supermarket {
+    width: 24px;
+    height: 24px;
+    background-position: -5px -286px;
+}
+
+.biz-icon-supermarket_2x {
+    width: 48px;
+    height: 48px;
+    background-position: -668px -483px;
+}
+
+.biz-icon-supermarket_3x {
+    width: 72px;
+    height: 72px;
+    background-position: -688px -541px;
+}
+
+.biz-icon-trash {
+    width: 15px;
+    height: 16px;
+    background-position: -341px -75px;
+}
+
+.biz-icon-trash_2x {
+    width: 30px;
+    height: 32px;
+    background-position: -39px -286px;
+}
+
+.biz-icon-trash_3x {
+    width: 45px;
+    height: 48px;
+    background-position: -726px -483px;
+}
+
+.biz-icon-video {
+    width: 30px;
+    height: 30px;
+    background-position: -79px -286px;
+}
+
+.biz-icon-video-player {
+    width: 67px;
+    height: 50px;
+    background-position: -688px -623px;
+}
+
+.biz-icon-video-player_2x {
+    width: 134px;
+    height: 100px;
+    background-position: -525px -643px;
+}
+
+.biz-icon-video-player_3x {
+    width: 201px;
+    height: 150px;
+    background-position: -774px -5px;
+}
+
+.biz-icon-video_2x {
+    width: 60px;
+    height: 60px;
+    background-position: -765px -165px;
+}
+
+.biz-icon-video_3x {
+    width: 90px;
+    height: 90px;
+    background-position: -835px -165px;
+}
+
+.biz-icon-website {
+    width: 30px;
+    height: 30px;
+    background-position: -457px -165px;
+}
+
+.biz-icon-website_2x {
+    width: 60px;
+    height: 60px;
+    background-position: -780px -265px;
+}
+
+.biz-icon-website_3x {
+    width: 90px;
+    height: 90px;
+    background-position: -850px -265px;
+}

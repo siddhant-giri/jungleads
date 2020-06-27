@@ -1,0 +1,24 @@
+@import '../../root-style.scss';
+
+.form{
+    .input-label{
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: normal;
+        text-align: left;
+        color: #616161;
+        float: left;
+    }
+    span.input-group-text{
+        border: 2px solid $lightgray !important;
+        border-left: none !important;
+        background-color: $white !important;
+        color: $gray !important;
+        border-radius: 0 10px 10px 0px !important;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,203 @@
+@import '../../../../../root-style.scss';
+
+// .modal{
+//     .header{
+//         text-transform: capitalize;
+//         background: $greeny-blue;
+//         color: $white;
+//     }
+//     .button{
+//         height: 30px;
+//         font-size: 14px;
+//         border-radius: 10px;
+//         padding: 0 50px;
+//         background: $greeny-blue;
+//         color: $white;
+//         font-weight: 500;
+//         cursor: pointer;
+//     }
+//     .input{
+//         label{
+//             margin-left: 10px;
+//         }
+//     }
+//     .number-campaign-input{
+//         width: 60px;
+//         padding: 2px 8px;
+//     }
+// }
+
+.edit-modal{
+    position: absolute;
+    bottom: 0;
+    max-width: 100% !important;
+    width: 100%;
+    margin-bottom: 0px;
+    .modal-content{
+        max-height: 600px;
+        overflow: scroll;
+        .header{
+            text-transform: capitalize;
+            background: $greeny-blue;
+            color: $white;
+        }
+        .button{
+            height: 30px;
+            font-size: 14px;
+            border-radius: 10px;
+            padding: 0 50px;
+            background: $greeny-blue;
+            color: $white;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .input{
+            label{
+                margin-left: 10px;
+            }
+        }
+        .number-campaign-input{
+            width: 60px;
+            padding: 2px 8px;
+        }
+    }
+    .modal-header{
+        height: 69px;
+        .close{
+            position: relative;
+            top: -31px;
+        }
+    }
+    .edit-modal-header{
+        width: 100%;
+        .header-title-txt{
+            color: $greeny-blue;
+        }
+        .header-buttons{
+            display: flex;
+            justify-content: center;
+            .delete-icn{
+                position: relative;
+                top: 1px;
+                left: 6px;
+            }
+        }
+    }
+    .close{
+        margin-left: 0px !important;
+    }
+    .delete{
+        background: transparent !important;
+        border-color: transparent !important;
+        color: $cherry-red !important;
+        padding: 0px !important;
+        width: 100px;
+        margin-right: 10px;
+        &:hover{
+            border: 1px solid $cherry-red !important;
+        }
+    }
+    .edit{
+        background: transparent !important;
+        border-color: $greeny-blue !important;
+        color: $greeny-blue !important;
+        margin: 0 10px !important;
+        border: 1px solid $greeny-blue !important;
+        &:hover{
+            background: $greeny-blue !important;
+            color: $white !important;
+        }
+    }
+    .accordion-body{
+        border: transparent;
+        box-shadow: none !important;
+        .dropdown-style{
+            width: 100%;
+            .btn-1.btn.btn-success{
+                width: 95% !important;
+            }
+        }
+        .expand-interest{
+            // margin-left: 20px;
+        }
+        .donut{
+            border: solid 1px #cccccc;
+            background: #f5f5f5;
+            font-size: 12px;
+            color: $warm-gray;
+            padding-bottom: 10px;
+        }
+        .devices{
+            width: 100%;
+            margin-bottom: 20px;
+            .btn-1.btn.btn-success{
+                width: 95%;
+                &:hover{
+                    background-color: transparent;
+                    border-color: $pinkish-gray;
+                    color: $warm-gray;
+                }
+            }
+        }
+        .platforms{
+            margin-left: 10px;
+        }
+        .asset-customization-txt{
+            color: $warm-gray;
+            font-size: 12px;
+        }
+    }
+    .detailed-targeting-section{
+        .edit-icn{
+            float: right;
+            cursor: pointer;
+            margin-top: 9px;
+            margin-right: 10px;
+        }
+        .cross-icn{
+            float: right;
+            margin-top: 3px;
+            cursor: pointer;
+        }
+    }
+    .targeting-expansion-txt{
+        margin-top: 8px;
+        a{
+            color: $greeny-blue;
+            text-decoration: underline;
+        }
+    }
+    .accordion-header{
+        background: transparent;
+        border: transparent;
+        cursor: pointer;
+        font-size: 24px;
+        color: #333333;
+        font-weight: bold;
+        .down-arrow{
+            font-size: 37px;
+            position: absolute;
+            right: 0px;
+            transform: rotate(0deg);
+            transition: transform 0.3s linear;
+        }
+        .down-arrow.close-acc{
+            transform: rotate(180deg);
+            transition: transform 0.3s linear;
+        }
+    }
+    .apexcharts-canvas{
+        position: relative !important;
+        left: -9% !important;
+        bottom: -15% !important;        
+    }
+    .footer-body{
+        width: 100%;
+        padding: 20px 0px;
+        background: $pale-gray-four;
+        border-radius: 10px;
+        .post-id-input{
+            
+        }
+    }
+}

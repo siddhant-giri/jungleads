@@ -1,0 +1,23 @@
+@import '../../root-style.scss';
+.right-panel{
+  background-color: $white;
+}
+.audience{
+  background: $white;
+  .container-fluid.row.audience-block{
+      margin-right: 0px;
+      padding-left: 0;
+      margin-left: 0;
+  }
+  div.col-9.content-block{
+    margin-top: 11%;
+}
+
+.header-audience{
+    color: $dusk-two;
+    margin-top: 60px;
+}
+.row{
+  margin-top: 30px;
+}
+}

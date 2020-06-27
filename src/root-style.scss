@@ -1,0 +1,93 @@
+
+// colors
+$white: #ffffff;
+$skyblue: #41b3c4;
+$darkblue: #0080ff;
+$formShadow: 0 3px 6px 0 rgba(255, 255, 255, 0.16);
+$borderRadius: 10px;
+$black: #333333;
+$lightblack: #535461;
+$red: #e85757;
+$fb-blue: #3b5998;
+$google-red: #e80029;
+$black2: #43425d;
+$dusk-two: #43425d;
+$greeny-blue: #41b3c4;
+$light-green: green;
+
+// gray shades
+$lightgray: #cccccc;
+$gray: #919191;
+$darkgray: #616161;
+$bg-gray: #f0f0f7;
+$pale-gray-two: #f7f8fa;
+$pinkish-gray: #cccccc;
+$warm-gray: #919191;
+$brownish-gray: #616161;
+$darkish-gray: #4d4f5c;
+$light-gray-blue: #9ebed9;
+$cool-gray: #a3a6b4;
+$pale-pinkish-gray: #efefef;
+$pale-gray: #f0f0f7;
+$pale-gray-two: #f4f4f8;
+$pale-gray-three: #f5f6fa;
+$pale-gray-four: #eef1f5;
+$pale-gray-five: #f7f8fa;
+
+$white-two: #fafafa;
+$gunmetal: #4d4f5c;
+$cherry-red: #e80029;
+$greeny-blue:  #41b3c4;
+
+// font
+$font13: 13px;
+$font14: 14px;
+$font16: 16px;
+$font24: 24px;
+$font18: 18px;
+
+// font family
+$roboto: Roboto;
+
+html {
+    scroll-behavior: smooth;
+
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background: $darkblue;
+    }
+    
+
+    .container-fluid {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+
+  .loader_content{
+    position: fixed;
+    top: 50%;
+    right: 45%;
+    color: $greeny-blue;
+  }
+  .loader_overlay{
+    background: whitesmoke;
+    opacity: 0.7;
+  }
+
+  .btn-success:hover{
+    border-color: none !important;
+    background-color: transparent !important;
+    color: $warm-gray;
+  }
+  .loader{
+    .ant-spin{
+      span{
+        position: fixed !important;
+        left: 58% !important;
+      }
+    }
+  }

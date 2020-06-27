@@ -1,0 +1,48 @@
+@import '../../../root-style.scss';
+.kpi-landing{
+  background: $white;
+  .container-fluid.row.kpi-block{
+    margin-right: 0px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.header-analysis{
+  color: $dusk-two;
+  margin-top: 60px;
+}
+  .money-val{
+    margin-top: 12px;
+    color: $greeny-blue;
+    font-weight: bolder;
+    font-size:  40px;
+  }
+
+  .button {
+    width: 200px;
+    height: 40px;
+    margin: 42px 0px;
+    border-radius: 10px;
+    border: solid 2px $skyblue;
+    background-color: $skyblue;
+    font-family: $roboto;
+    font-size: $font16;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 0.32px;
+    color: $white;
+    &:hover{
+        color: $white;
+        background-color: $skyblue;
+        opacity: 0.7;
+    }
+}
+
+button span {
+  font-size: 12px;
+  color: $white;
+}
+}
+
